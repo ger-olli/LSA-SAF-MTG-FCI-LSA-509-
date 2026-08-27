@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-27T12:14:57.167919+00:00",
+  "checked_at_utc": "2026-08-27T12:19:25.793431+00:00",
   "polygon": [
     [
       21.30252,
@@ -26,7 +26,7 @@
   "product": "LSA-509",
   "new_hotspots": [],
   "errors": [
-    "No MTFRPPIXEL daily directory with product files found."
+    "No MTFRPPixel product directory with HDF5/NetCDF files found under https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/. Root subdirectories seen: /PRODUCTS/MTG/MTFRPPixel/NATIVE/"
   ],
   "new_hotspot_count": 0
 }
