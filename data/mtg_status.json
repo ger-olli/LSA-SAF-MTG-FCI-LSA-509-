@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-27T12:24:19.053500+00:00",
+  "checked_at_utc": "2026-08-27T12:26:37.636366+00:00",
   "polygon": [
     [
       21.30252,
@@ -25,8 +25,17 @@
   "source": "LSA SAF MTG/FCI MTFRPPIXEL",
   "product": "LSA-509",
   "new_hotspots": [],
-  "errors": [
-    "No MTFRPPixel product files found in the real LSA-SAF path NATIVE/YYYY/MM/DD for today or the previous 2 days. Tried: https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/ | https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/26/ | https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/25/"
-  ],
+  "errors": [],
+  "product_file": "/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271200.nc",
+  "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271200.nc",
+  "download_bytes": 2814979,
+  "inside_polygon": 0,
+  "dataset_mapping": {
+    "frp_dataset": "ListProduct/FRP",
+    "latitude_dataset": "ListProduct/LATITUDE",
+    "longitude_dataset": "ListProduct/LONGITUDE",
+    "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+    "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+  },
   "new_hotspot_count": 0
 }
