@@ -1,0 +1,44 @@
+name: MTG FRP Hotspot Watch
+
+on:
+  schedule:
+    - cron: "7,17,27,37,47,57 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r mtg-requirements.txt
+
+      - name: Query LSA SAF MTG FRP
+        env:
+          LSASAF_USERNAME: ${{ secrets.LSASAF_USERNAME }}
+          LSASAF_PASSWORD: ${{ secrets.LSASAF_PASSWORD }}
+        run: python mtg_watch.py
+
+      - name: Publish MTG status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/mtg_status.json data/mtg_seen.json data/mtg_events.jsonl || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update MTG FRP hotspot status"
+            git push
+          fi
