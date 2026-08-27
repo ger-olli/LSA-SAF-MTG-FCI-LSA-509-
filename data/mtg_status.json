@@ -1,3 +1,32 @@
 {
-  "status": "not_run_yet"
+  "checked_at_utc": "2026-08-27T12:14:57.167919+00:00",
+  "polygon": [
+    [
+      21.30252,
+      44.83812
+    ],
+    [
+      21.21291,
+      44.79014
+    ],
+    [
+      20.99648,
+      44.89789
+    ],
+    [
+      21.10188,
+      44.96886
+    ],
+    [
+      21.30252,
+      44.83812
+    ]
+  ],
+  "source": "LSA SAF MTG/FCI MTFRPPIXEL",
+  "product": "LSA-509",
+  "new_hotspots": [],
+  "errors": [
+    "No MTFRPPIXEL daily directory with product files found."
+  ],
+  "new_hotspot_count": 0
 }
