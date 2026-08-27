@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/mtg_status.json data/mtg_seen.json data/mtg_events.jsonl || true
+          git add data/mtg_status.json data/mtg_seen.json data/mtg_events.jsonl data/mtg_cursor.json || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
