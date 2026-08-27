@@ -27,7 +27,7 @@ if not USERNAME or not PASSWORD:
     print("ERROR: LSASAF_USERNAME/LSASAF_PASSWORD not set", file=sys.stderr)
     sys.exit(2)
 
-BASE = "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPIXEL/NATIVE/"
+BASE = "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/"
 STATE_PATH = Path("data/mtg_seen.json")
 STATUS_PATH = Path("data/mtg_status.json")
 EVENTS_PATH = Path("data/mtg_events.jsonl")
@@ -55,24 +55,74 @@ def list_links(url):
     return [a.get("href") for a in soup.find_all("a") if a.get("href")]
 
 def latest_daily_directory():
-    now = datetime.now(timezone.utc)
-    candidates = [
-        f"{now.year:04d}/{now.month:02d}/{now.day:02d}/",
-    ]
-    # fallback: yesterday, in case today's directory is not ready yet
     from datetime import timedelta
-    y = now - timedelta(days=1)
-    candidates.append(f"{y.year:04d}/{y.month:02d}/{y.day:02d}/")
 
+    def has_product_files(links):
+        return any(re.search(r'\\.(h5|hdf5|nc)(?:\\.bz2)?$', x, re.I) for x in links)
+
+    now = datetime.now(timezone.utc)
+
+    # Known likely date layouts. We try several without assuming NATIVE exists.
+    dates = [now, now - timedelta(days=1), now - timedelta(days=2)]
+    candidates = []
+    for d in dates:
+        candidates.extend([
+            f"{d.year:04d}/{d.month:02d}/{d.day:02d}/",
+            f"NATIVE/{d.year:04d}/{d.month:02d}/{d.day:02d}/",
+        ])
+
+    # First try direct known layouts.
     for rel in candidates:
         url = urljoin(BASE, rel)
         try:
             links = list_links(url)
-            if any(re.search(r'\.(h5|hdf5|nc)(?:\.bz2)?$', x, re.I) for x in links):
+            if has_product_files(links):
                 return url, links
         except requests.HTTPError:
+            pass
+
+    # Then inspect one directory level under BASE and try date paths beneath it.
+    try:
+        root_links = list_links(BASE)
+    except Exception as e:
+        raise RuntimeError(f"Could not list MTFRPPixel root directory: {e}")
+
+    subdirs = []
+    for href in root_links:
+        if not href or href.startswith("?") or href.startswith("#") or href.startswith("../"):
             continue
-    raise RuntimeError("No MTFRPPIXEL daily directory with product files found.")
+        if href.endswith("/"):
+            subdirs.append(href)
+
+    for sub in subdirs:
+        sub_url = urljoin(BASE, sub)
+        # If files are directly in this subdirectory, accept it.
+        try:
+            links = list_links(sub_url)
+            if has_product_files(links):
+                return sub_url, links
+        except requests.HTTPError:
+            continue
+
+        for d in dates:
+            for rel in [
+                f"{d.year:04d}/{d.month:02d}/{d.day:02d}/",
+                f"NATIVE/{d.year:04d}/{d.month:02d}/{d.day:02d}/",
+            ]:
+                url = urljoin(sub_url, rel)
+                try:
+                    links = list_links(url)
+                    if has_product_files(links):
+                        return url, links
+                except requests.HTTPError:
+                    continue
+
+    raise RuntimeError(
+        "No MTFRPPixel product directory with HDF5/NetCDF files found under "
+        + BASE
+        + ". Root subdirectories seen: "
+        + ", ".join(subdirs[:50])
+    )
 
 def choose_latest_file(base_url, links):
     files = [x for x in links if re.search(r'\.(h5|hdf5|nc)(?:\.bz2)?$', x, re.I)]
