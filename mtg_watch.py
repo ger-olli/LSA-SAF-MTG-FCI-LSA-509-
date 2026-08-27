@@ -31,7 +31,8 @@ BASE = "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/"
 STATE_PATH = Path("data/mtg_seen.json")
 STATUS_PATH = Path("data/mtg_status.json")
 EVENTS_PATH = Path("data/mtg_events.jsonl")
-DOWNLOAD = Path("data/latest_mtfrppixel.h5")
+DOWNLOAD_DIR = Path("data/mtg_downloads")
+CURSOR_PATH = Path("data/mtg_cursor.json")
 
 session = requests.Session()
 session.auth = (USERNAME, PASSWORD)
@@ -95,18 +96,35 @@ def latest_daily_directory():
         + " | ".join(tried)
     )
 
-def choose_latest_file(base_url, links):
-    files = [x for x in links if re.search(r'\.(h5|hdf5|nc)(?:\.bz2)?$', x, re.I)]
-    if not files:
-        raise RuntimeError("No MTFRPPIXEL product file links found.")
-    files.sort()
-    return urljoin(base_url, files[-1]), files[-1]
+def product_files(base_url, links):
+    files = []
+    for href in links:
+        if re.search(r'\.(h5|hdf5|nc)(?:\.bz2)?$', href, re.I):
+            files.append((href.split("/")[-1], urljoin(base_url, href)))
+    files.sort(key=lambda x: x[0])
+    return files
 
-def download(url):
+def load_cursor():
+    if CURSOR_PATH.exists():
+        try:
+            return json.loads(CURSOR_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {"last_processed_file": None}
+
+def save_cursor(filename):
+    CURSOR_PATH.write_text(
+        json.dumps({"last_processed_file": filename}, indent=2),
+        encoding="utf-8"
+    )
+
+def download(url, filename):
+    DOWNLOAD_DIR.mkdir(parents=True, exist_ok=True)
+    path = DOWNLOAD_DIR / filename
     r = session.get(url, timeout=180)
     r.raise_for_status()
-    DOWNLOAD.write_bytes(r.content)
-    return len(r.content)
+    path.write_bytes(r.content)
+    return path, len(r.content)
 
 def walk_datasets(h5):
     out = {}
@@ -167,10 +185,10 @@ def geolocate_from_projection(h5, dsets, shape):
         return None, None
     return lon, lat
 
-def extract_hotspots():
+def extract_hotspots(file_path):
     # NOTE: MTFRPPIXEL format may evolve. The extractor deliberately uses
     # semantic dataset discovery and fails loudly instead of inventing values.
-    with h5py.File(DOWNLOAD, "r") as h5:
+    with h5py.File(file_path, "r") as h5:
         dsets = walk_datasets(h5)
 
         lat_name, lat_ds = find_dataset(dsets, [r'latitude$', r'(^|/)lat$'])
@@ -232,52 +250,120 @@ def extract_hotspots():
 def main():
     checked = datetime.now(timezone.utc).isoformat()
     seen = load_seen()
+    cursor = load_cursor()
+
     status = {
         "checked_at_utc": checked,
         "polygon": list(POLYGON.exterior.coords),
         "source": "LSA SAF MTG/FCI MTFRPPIXEL",
         "product": "LSA-509",
+        "processed_files": [],
         "new_hotspots": [],
         "errors": [],
     }
 
     try:
-        day_url, links = latest_daily_directory()
-        file_url, filename = choose_latest_file(day_url, links)
-        size = download(file_url)
-        hotspots, mapping = extract_hotspots()
+        # Collect files from today + previous 2 days.
+        from datetime import timedelta
+        now = datetime.now(timezone.utc)
+        all_files = []
 
-        status.update({
-            "product_file": filename,
-            "product_url": file_url,
-            "download_bytes": size,
-            "inside_polygon": len(hotspots),
-            "dataset_mapping": mapping,
-        })
+        for d in [now, now - timedelta(days=1), now - timedelta(days=2)]:
+            day_url = urljoin(
+                BASE,
+                f"NATIVE/{d.year:04d}/{d.month:02d}/{d.day:02d}/"
+            )
+            try:
+                links = list_links(day_url)
+            except Exception:
+                continue
+            all_files.extend(product_files(day_url, links))
 
-        new = []
-        for h in hotspots:
-            key = f"{filename}|{h['latitude']:.6f}|{h['longitude']:.6f}|{h['frp_mw']:.6f}"
-            h["_key"] = key
-            if key not in seen:
-                seen.add(key)
-                new.append(h)
+        # Deduplicate by filename, then chronological filename order.
+        dedup = {}
+        for filename, url in all_files:
+            dedup[filename] = url
+        ordered = sorted(dedup.items())
 
-        status["new_hotspots"] = new
-        status["new_hotspot_count"] = len(new)
+        last = cursor.get("last_processed_file")
+        if last:
+            pending = [(fn, url) for fn, url in ordered if fn > last]
+        else:
+            # First backlog-aware run: process only latest file to avoid flooding
+            # with historic detections. Subsequent runs process every new file.
+            pending = ordered[-1:] if ordered else []
 
-        if new:
+        status["files_available"] = len(ordered)
+        status["last_processed_file_before_run"] = last
+        status["pending_file_count"] = len(pending)
+
+        all_new = []
+        last_success = last
+
+        for filename, file_url in pending:
+            file_result = {
+                "product_file": filename,
+                "product_url": file_url,
+                "new_hotspot_count": 0,
+            }
+            try:
+                path, size = download(file_url, filename)
+                hotspots, mapping = extract_hotspots(path)
+                file_result["download_bytes"] = size
+                file_result["inside_polygon"] = len(hotspots)
+                file_result["dataset_mapping"] = mapping
+
+                file_new = []
+                for h in hotspots:
+                    key = f"{filename}|{h['latitude']:.6f}|{h['longitude']:.6f}|{h['frp_mw']:.6f}"
+                    h["_key"] = key
+                    h["product_file"] = filename
+                    if key not in seen:
+                        seen.add(key)
+                        file_new.append(h)
+                        all_new.append(h)
+
+                file_result["new_hotspot_count"] = len(file_new)
+                last_success = filename
+                save_cursor(filename)
+
+                # Remove downloaded file after successful extraction.
+                try:
+                    path.unlink()
+                except OSError:
+                    pass
+
+            except Exception as e:
+                file_result["error"] = str(e)
+                status["errors"].append({
+                    "product_file": filename,
+                    "error": str(e),
+                })
+                # Stop here so a failed file is retried next run and later
+                # timestamps are not marked as completed out of order.
+                status["processed_files"].append(file_result)
+                break
+
+            status["processed_files"].append(file_result)
+
+        status["last_processed_file_after_run"] = last_success
+        status["new_hotspots"] = all_new
+        status["new_hotspot_count"] = len(all_new)
+
+        if all_new:
             with EVENTS_PATH.open("a", encoding="utf-8") as f:
-                for h in new:
-                    f.write(json.dumps({"detected_at_utc": checked, "product_file": filename, **h}) + "\n")
+                for h in all_new:
+                    f.write(json.dumps({
+                        "detected_at_utc": checked,
+                        **h
+                    }) + "\n")
 
     except Exception as e:
-        status["errors"].append(str(e))
+        status["errors"].append({"general": str(e)})
         status["new_hotspot_count"] = 0
 
     STATUS_PATH.write_text(json.dumps(status, indent=2), encoding="utf-8")
     save_seen(seen)
-
     print(json.dumps(status, indent=2))
 
 if __name__ == "__main__":
