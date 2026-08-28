@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: mtg-frp-hotspot-watch
+  cancel-in-progress: false
+
 jobs:
   watch:
     runs-on: ubuntu-latest
@@ -43,5 +47,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Update MTG FRP hotspot status"
+            git pull --rebase origin main
             git push
           fi
