@@ -1,4 +1,5 @@
 {
+  "generated_at_utc": "2026-08-28T18:37:18.458343+00:00",
   "window_hours": 24,
   "source_events_file": "data/mtg_events.jsonl",
   "event_count": 0,
