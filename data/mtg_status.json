@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-27T12:33:33.358907+00:00",
+  "checked_at_utc": "2026-08-28T10:08:06.945411+00:00",
   "polygon": [
     [
       21.30252,
@@ -26,10 +26,1802 @@
   "product": "LSA-509",
   "processed_files": [
     {
-      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271210.nc",
-      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271210.nc",
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271220.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271220.nc",
       "new_hotspot_count": 0,
-      "download_bytes": 2846310,
+      "download_bytes": 2885899,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271230.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271230.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2901801,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271240.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271240.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2923652,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271250.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271250.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2934945,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271300.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271300.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2938234,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271310.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271310.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2952927,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271320.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271320.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2969998,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271330.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271330.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2974728,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271340.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271340.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2974504,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271350.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271350.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2963894,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271400.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271400.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2946645,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271410.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271410.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2952377,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271420.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271420.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2902553,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271430.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271430.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2897038,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271440.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271440.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2855827,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271450.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271450.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2794950,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271500.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271500.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2749758,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271510.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271510.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2698877,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271520.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271520.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2640049,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271530.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271530.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2578334,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271540.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271540.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2524339,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271550.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271550.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2476868,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271600.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271600.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2436116,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271610.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271610.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2385253,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271620.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271620.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2328367,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271630.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271630.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2276241,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271640.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271640.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2252067,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271650.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271650.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2213514,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271700.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271700.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2175082,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271710.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271710.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2128942,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271720.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271720.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2108187,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271730.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271730.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2083578,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271740.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271740.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2058155,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271750.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271750.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2042244,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271800.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271800.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2079056,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271810.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271810.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2054372,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271820.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271820.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2017710,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271830.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271830.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1987042,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271840.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271840.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1953960,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271850.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271850.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1917496,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271900.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271900.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1886635,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271910.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271910.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1848994,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271920.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271920.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1810494,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271930.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271930.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1765586,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271940.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271940.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1725933,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271950.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271950.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1684546,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272000.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272000.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1637159,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272010.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272010.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1616555,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272020.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272020.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1593641,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272030.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272030.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1579187,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272040.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272040.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1575582,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272050.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272050.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1566398,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272100.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272100.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1563688,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272110.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272110.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1561686,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272120.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272120.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1545068,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272130.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272130.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1537727,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272140.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272140.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1534323,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272150.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272150.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1519784,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272200.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272200.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1518284,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272210.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272210.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1520450,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272220.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272220.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1514622,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272230.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272230.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1507753,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272240.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272240.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1497602,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272250.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272250.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1469940,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272300.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272300.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1446203,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272310.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272310.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1455664,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272320.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272320.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1493101,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272330.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272330.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1497400,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272340.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272340.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1499647,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272350.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/27/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608272350.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1513266,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280000.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280000.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1571241,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280010.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280010.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1589861,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280020.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280020.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1599484,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280030.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280030.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1586180,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280040.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280040.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1566718,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280050.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280050.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1522604,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280100.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280100.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1520286,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280110.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280110.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1537454,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280120.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280120.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1550949,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280130.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280130.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1550078,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280140.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280140.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1545089,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280150.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280150.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1546439,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280200.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280200.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1546144,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280210.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280210.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1546077,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280220.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280220.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1546522,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280230.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280230.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1547026,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280240.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280240.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1540370,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280250.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280250.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1537426,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280300.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280300.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1529879,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280310.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280310.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1526825,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280320.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280320.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1525376,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280330.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280330.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1525339,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280340.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280340.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1523334,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280350.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280350.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1530026,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280400.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280400.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1546479,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280410.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280410.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1560215,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280420.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280420.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1576538,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280430.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280430.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1592116,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280440.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280440.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1609024,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280450.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280450.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1630332,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280500.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280500.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1648937,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280510.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280510.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1672211,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280520.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280520.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1694872,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280530.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280530.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1713399,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280540.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280540.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1751272,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280550.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280550.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1764490,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280600.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280600.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1778691,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280610.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280610.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1783206,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280620.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280620.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1802451,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280630.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280630.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1820150,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280640.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280640.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1835062,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280650.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280650.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1857376,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280700.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280700.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1877898,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280710.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280710.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1899891,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280720.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280720.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1911434,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280730.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280730.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1926299,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280740.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280740.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1946607,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280750.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280750.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1954429,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280800.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280800.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1976364,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280810.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280810.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1994589,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280820.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280820.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2009529,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280830.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280830.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2033621,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280840.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280840.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2057444,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280850.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280850.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2098117,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280900.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280900.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2118684,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280910.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280910.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2134702,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280920.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280920.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2160374,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280930.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280930.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2197311,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280940.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280940.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 2237313,
       "inside_polygon": 0,
       "dataset_mapping": {
         "frp_dataset": "ListProduct/FRP",
@@ -42,9 +1834,9 @@
   ],
   "new_hotspots": [],
   "errors": [],
-  "files_available": 357,
-  "last_processed_file_before_run": null,
-  "pending_file_count": 1,
-  "last_processed_file_after_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271210.nc",
+  "files_available": 346,
+  "last_processed_file_before_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608271210.nc",
+  "pending_file_count": 129,
+  "last_processed_file_after_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608280940.nc",
   "new_hotspot_count": 0
 }
