@@ -1,0 +1,10 @@
+{
+  "window_hours": 24,
+  "source_events_file": "data/mtg_events.jsonl",
+  "event_count": 0,
+  "events": [],
+  "integrity": {
+    "invalid_json_lines_skipped": 0,
+    "events_without_valid_detection_time_skipped": 0
+  }
+}
