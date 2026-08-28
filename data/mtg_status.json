@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-28T19:57:14.924182+00:00",
+  "checked_at_utc": "2026-08-28T20:07:14.652311+00:00",
   "polygon": [
     [
       21.30252,
@@ -26,10 +26,24 @@
   "product": "LSA-509",
   "processed_files": [
     {
-      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281930.nc",
-      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281930.nc",
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281940.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281940.nc",
       "new_hotspot_count": 0,
-      "download_bytes": 1699317,
+      "download_bytes": 1661645,
+      "inside_polygon": 0,
+      "dataset_mapping": {
+        "frp_dataset": "ListProduct/FRP",
+        "latitude_dataset": "ListProduct/LATITUDE",
+        "longitude_dataset": "ListProduct/LONGITUDE",
+        "confidence_dataset": "ListProduct/FIRE_CONFIDENCE",
+        "frp_uncertainty_dataset": "ListProduct/FRP_UNCERTAINTY"
+      }
+    },
+    {
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281950.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281950.nc",
+      "new_hotspot_count": 0,
+      "download_bytes": 1616372,
       "inside_polygon": 0,
       "dataset_mapping": {
         "frp_dataset": "ListProduct/FRP",
@@ -42,9 +56,9 @@
   ],
   "new_hotspots": [],
   "errors": [],
-  "files_available": 405,
-  "last_processed_file_before_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281920.nc",
-  "pending_file_count": 1,
-  "last_processed_file_after_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281930.nc",
+  "files_available": 407,
+  "last_processed_file_before_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281930.nc",
+  "pending_file_count": 2,
+  "last_processed_file_after_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608281950.nc",
   "new_hotspot_count": 0
 }
