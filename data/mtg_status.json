@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-28T22:01:23.831310+00:00",
+  "checked_at_utc": "2026-08-28T22:07:15.484924+00:00",
   "polygon": [
     [
       21.30252,
@@ -26,10 +26,10 @@
   "product": "LSA-509",
   "processed_files": [
     {
-      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608282140.nc",
-      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608282140.nc",
+      "product_file": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608282150.nc",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MTG/MTFRPPixel/NATIVE/2026/08/28/LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608282150.nc",
       "new_hotspot_count": 0,
-      "download_bytes": 1459270,
+      "download_bytes": 1446373,
       "inside_polygon": 0,
       "dataset_mapping": {
         "frp_dataset": "ListProduct/FRP",
@@ -42,9 +42,9 @@
   ],
   "new_hotspots": [],
   "errors": [],
-  "files_available": 418,
-  "last_processed_file_before_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608282130.nc",
+  "files_available": 419,
+  "last_processed_file_before_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608282140.nc",
   "pending_file_count": 1,
-  "last_processed_file_after_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608282140.nc",
+  "last_processed_file_after_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608282150.nc",
   "new_hotspot_count": 0
 }
