@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-29T16:17:13.561216+00:00",
+  "checked_at_utc": "2026-08-29T16:19:28.661391+00:00",
   "polygon": [
     [
       21.30252,
@@ -27,7 +27,7 @@
   "processed_files": [],
   "new_hotspots": [],
   "errors": [],
-  "files_available": 0,
+  "files_available": 383,
   "last_processed_file_before_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608291550.nc",
   "pending_file_count": 0,
   "last_processed_file_after_run": "LSA-509_MTG_MTFRPPIXEL_MTG-FD_202608291550.nc",
